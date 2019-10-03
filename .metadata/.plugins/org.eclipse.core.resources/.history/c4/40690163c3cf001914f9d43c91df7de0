@@ -1,0 +1,22 @@
+class SwapWithVariable
+{
+   public static void main(String args[])
+   {
+      int a,b,c;
+      System.out.println("Enter a and b");
+   
+      Scanner sc = new Scanner(System.in);  
+    
+     
+      a = in.nextInt();
+      b = in.nextInt();
+     
+      System.out.println("Before Swapping\nx = "+a+"\ny = "+b);
+     
+      c=a;
+      a=b;
+      b=c;
+     
+      System.out.println("After Swapping\nx = "+a+"\ny = "+b);
+   }
+}
